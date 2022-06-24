@@ -1,0 +1,114 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:7:19: FifoRegister does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def testFn[T <: FifoRegister[_ <: Data]](dut: T) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:9:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.bits.asUInt.poke(0xab.U)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:10:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:11:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.ready.poke(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:12:9: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:15:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.bits.asUInt.poke(0x123.U)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:16:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:17:9: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:18:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.bits.asUInt.poke(0xab.U)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:19:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:20:9: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.clock.step(12)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:21:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.ready.expect(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:22:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.valid.expect(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:23:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.bits.asUInt.expect(0x123.U)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:25:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.ready.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:26:9: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:27:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.valid.expect(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:28:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.ready.poke(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:29:9: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:34:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:36:11: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      dut.io.enq.bits.asUInt.poke(cnt.U)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:37:15: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      if (dut.io.enq.ready.peek.litToBoolean)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:39:11: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:42:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.ready.expect(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:43:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.valid.expect(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:44:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.bits.asUInt.expect(1.U)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:48:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:49:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.ready.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:51:15: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      if (dut.io.deq.valid.peek.litToBoolean) {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:52:13: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m        dut.io.deq.bits.asUInt.expect(expected.U)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:55:11: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:59:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.enq.valid.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:60:9: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m    dut.io.deq.ready.poke(true.B)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:63:11: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      dut.io.enq.bits.asUInt.poke(i.U)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:64:15: value io is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      if (dut.io.enq.ready.peek.litToBoolean)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:66:11: value clock is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m      dut.clock.step()[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/test/scala/FifoSpec.scala:80:31: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    test(new FifoRegister(UInt(32.W))).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m37 errors found[0m

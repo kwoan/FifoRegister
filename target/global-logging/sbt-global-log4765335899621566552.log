@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(389673c9-65f1-4dbe-afc5-b67b41bd6962), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/kwpark/TSN_LAB/my_chisel_template/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/main/scala/FIFO/BubbleFifo.scala:9:57: not found: type Fifo[0m
+[0m[[0m[31merror[0m] [0m[0mclass BubbleFifo[T <: Data](gen: T, depth: Int) extends Fifo(gen: T, depth: Int) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/main/scala/FIFO/BubbleFifo.scala:9:65: no arguments allowed for nullary constructor Object: (): Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass BubbleFifo[T <: Data](gen: T, depth: Int) extends Fifo(gen: T, depth: Int) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/main/scala/FIFO/BubbleFifo.scala:12:21: not found: type FifoIO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO(new FifoIO(gen))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/main/scala/FIFO/BubbleFifo.scala:38:6: object enq is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m  io.enq <> buffers(0).io.enq[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kwpark/TSN_LAB/my_chisel_template/src/main/scala/FIFO/BubbleFifo.scala:39:6: object deq is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m  io.deq <> buffers(depth - 1).io.deq[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jun 22, 2022 3:52:01 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

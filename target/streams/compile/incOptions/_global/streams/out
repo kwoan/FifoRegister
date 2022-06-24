@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/kwpark/TSN_LAB/my_chisel_template/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WriterIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReaderIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WriterIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReaderIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	WriterIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FifoRegister$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReaderIO.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/kwpark/TSN_LAB/my_chisel_template/target/scala-2.13/classes.bak[0m
